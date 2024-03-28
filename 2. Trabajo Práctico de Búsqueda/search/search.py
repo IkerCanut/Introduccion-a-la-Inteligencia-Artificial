@@ -201,7 +201,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
                 state, actions = candidate
                 priority = problem.getCostOfActions(actions) + heuristic(state, problem)
                 if (h > priority):
-                    raise ValueError("Problemas en la monotonia!!!!")
+                    raise ValueError("Monotonía")
                 priority_queue.push((state, actions, priority), priority)
                 
 # Abbreviations
