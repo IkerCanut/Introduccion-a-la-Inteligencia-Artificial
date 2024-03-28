@@ -195,8 +195,8 @@ def aStarSearch(problem, heuristic=nullHeuristic):
         if state not in closed_set:
             closed_set.add(state)
             candidate_successors = problem.getSuccessors(state)
-            candidate_successors = [x for x in candidate_successors if x[0] not in closed_set]
-            candidate_successors = [(x[0], actions + [x[1]]) for x in candidate_successors]
+            candidate_successors = filter(lambda x: x[0] not in closed_set, candidate_successors)
+            candidate_successors = map(lambda x: (x[0], actions + [x[1]]), candidate_successors)
             for candidate in candidate_successors:
                 state, actions = candidate
                 priority = problem.getCostOfActions(actions) + heuristic(state, problem)
