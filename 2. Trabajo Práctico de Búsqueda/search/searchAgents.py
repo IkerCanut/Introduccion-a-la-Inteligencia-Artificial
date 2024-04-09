@@ -277,25 +277,18 @@ class CornersProblem(search.SearchProblem):
         self._expanded = 0 # Number of search nodes expanded
 
         "*** YOUR CODE HERE ***"
-        # jmr
-        self.cornersFun = {(1,1):0, (1,top):1, (right, 1):2, (right, top):3}
-        self._visited, self._visitedlist, self._expanded = {}, [], 0
 
     def getStartState(self):
         "Returns the start state (in your state space, not the full Pacman state space)"
         "*** YOUR CODE HERE ***"
         #util.raiseNotDefined()
-        # jmr
-        return self.startingPosition[0], self.startingPosition[1], (False, False, False, False)
+        return self.startingPosition, False, False, False, False
 
     def isGoalState(self, state):
         "Returns whether this search state is a goal state of the problem"
         "*** YOUR CODE HERE ***"
         #util.raiseNotDefined()
-        # jmr
-        x,y, corners = state
-        return corners == (True, True, True, True)
-        
+        return all(state[1:])
 
     def getSuccessors(self, state):
         """
@@ -319,19 +312,18 @@ class CornersProblem(search.SearchProblem):
             #   hitsWall = self.walls[nextx][nexty]
 
             "*** YOUR CODE HERE ***"
-            x,y, corners  = state
+            x, y = state[0]
             dx, dy = Actions.directionToVector(action)
             nextx, nexty = int(x + dx), int(y + dy)
-            if not self.walls[nextx][nexty]:
-                if (nextx, nexty) in self.corners:
-                    lcorners = list(corners)
-                    lcorners[self.cornersFun[(nextx, nexty)]] = True
-                    nextCorners = tuple(lcorners)
-                else:
-                    nextCorners = corners
-                nextState = (nextx, nexty, nextCorners)
-                cost = 1
-                successors.append((nextState, action, cost))
+            hitsWall = self.walls[nextx][nexty]
+            corners = state[1:]
+            if not hitsWall:
+                nextPos = (nextx, nexty)
+                if nextPos in self.corners:
+                    corners = list(corners)
+                    corners[self.corners.index(nextPos)] = True
+                    corners = tuple(corners)
+                successors.append(((nextPos, *corners), action, 1))
 
         self._expanded += 1
         return successors
