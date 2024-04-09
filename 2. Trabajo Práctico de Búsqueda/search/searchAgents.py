@@ -359,7 +359,23 @@ def cornersHeuristic(state, problem):
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
     "*** YOUR CODE HERE ***"
-    return 0 # Default to trivial solution
+    
+    # Esta heuristica tiene 741
+    fringe = util.PriorityQueue()
+    position, visited = state[0], state[1:]
+    remaining = [corner for corner, visited in zip(corners, visited) if not visited]
+    fringe.push((position, remaining, 0), 0)
+
+    while not fringe.isEmpty():
+        current_position, remaining_corners, current_cost = fringe.pop()
+        
+        if not remaining_corners:
+            return current_cost
+        
+        for corner in remaining_corners:
+            next_cost = util.manhattanDistance(current_position, corner) + current_cost
+            new_remaining_corners = [x for x in remaining_corners if x != corner]
+            fringe.push((corner, new_remaining_corners, next_cost), next_cost)
 
 class AStarCornersAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
