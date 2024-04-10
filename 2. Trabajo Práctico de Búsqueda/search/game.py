@@ -173,6 +173,9 @@ class Grid:
         if other == None: return False
         return self.data == other.data
 
+    def __lt__(self, other):
+        return False
+
     def __hash__(self):
         # return hash(str(self))
         base = 1

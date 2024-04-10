@@ -110,28 +110,7 @@ def breadthFirstSearch(problem):
 
 def uniformCostSearch(problem):
     "Search the node of least total cost first."
-    priorityQueue = util.PriorityQueue()
-    start_state = problem.getStartState()
-    priorityQueue.push((start_state, [], 0), 0)
-
-    visited = set()
-
-    while not priorityQueue.isEmpty():
-        current_state, path, current_cost = priorityQueue.pop()
-        if problem.isGoalState(current_state):
-            return path
-        if current_state in visited:
-            continue
-
-        visited.add(current_state)
-
-        for successor, action, cost in problem.getSuccessors(current_state):
-            if successor not in visited:
-                new_cost = current_cost + cost
-                new_path = path + [action]
-                priorityQueue.push((successor, new_path, new_cost), new_cost)
-
-    return []
+    return search(problem, util.PriorityQueueWithFunction(lambda x: problem.getCostOfActions(x[1])))
 
 def nullHeuristic(state, problem=None):
     """
@@ -142,29 +121,8 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
     "Search the node that has the lowest combined cost and heuristic first."
-    initial_state = problem.getStartState()
-    initial_actions = []
-    initial_candidate = (initial_state, initial_actions, 0)
-    priority_queue = util.PriorityQueue()
-    priority_queue.push(initial_candidate, 0)
-    closed_set = set()
-    while not priority_queue.isEmpty():
-        candidate = priority_queue.pop()
-        state, actions, h = candidate
-        if problem.isGoalState(state):
-            return actions
-        if state not in closed_set:
-            closed_set.add(state)
-            candidate_successors = problem.getSuccessors(state)
-            candidate_successors = filter(lambda x: x[0] not in closed_set, candidate_successors)
-            candidate_successors = list(map(lambda x: (x[0], actions + [x[1]]), candidate_successors))
-            for candidate in candidate_successors:
-                state, actions = candidate
-                priority = problem.getCostOfActions(actions) + heuristic(state, problem)
-                if (h > priority):
-                    raise ValueError("Monotonía")
-                priority_queue.push((state, actions, priority), priority)
-                
+    return search(problem, util.PriorityQueueWithFunction(lambda x: heuristic(x[0], problem) + problem.getCostOfActions(x[1])))
+
 # Abbreviations
 bfs = breadthFirstSearch
 dfs = depthFirstSearch
