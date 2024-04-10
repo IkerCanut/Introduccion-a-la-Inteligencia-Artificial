@@ -475,7 +475,14 @@ def foodHeuristic(state, problem):
     Subsequent calls to this heuristic can access problem.heuristicInfo['wallCount']
     """
     position, foodGrid = state
-    "*** YOUR CODE HERE ***"
+
+    """
+    La heuristica consiste en calcular la distancia hacia la comida mas cercana,
+    sumar la distancia manhattan al costo, repetir el proceso poniendo como
+    punto de partida la ultima comida visitada. Una vez que se visitaron todas
+    las comidas se considera que llego a destino.
+    """
+
     cost = 0
     visited = set()
     current = position
