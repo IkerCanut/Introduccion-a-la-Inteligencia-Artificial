@@ -283,12 +283,15 @@ class CornersProblem(search.SearchProblem):
         "*** YOUR CODE HERE ***"
         "Creamos una tupla que contiene la posicion inicial y 4 booleanos, uno por esquina, que"
         "representa si se visitaron o no."
+        "La primera es la esquina inferior izquierda, la segunda es la superior izquierda,"
+        "La tercera es la esquina inferior derecha y la cuarta es la superior derecha."
         return (self.startingPosition, (False, False, False, False))
 
     def isGoalState(self, state):
         "Returns whether this search state is a goal state of the problem"
         "*** YOUR CODE HERE ***"
-        "El problema esta resuelto cuando se visitaron todas las esquinas"
+        "El problema esta resuelto cuando se visitaron todas las esquinas, es decir"
+        "todos los valores estan en True."
         return all(state[1])
 
     def getSuccessors(self, state):
@@ -313,6 +316,8 @@ class CornersProblem(search.SearchProblem):
             #   hitsWall = self.walls[nextx][nexty]
 
             "*** YOUR CODE HERE ***"
+            "Dada la posicion, por cada una de las acciones posibles y viendo las paredes podemos"
+            "ver si es un movimiento valido y agregarlo a la lista de successors."
             x, y = state[0]
             dx, dy = Actions.directionToVector(action)
             nextx, nexty = int(x + dx), int(y + dy)
@@ -360,7 +365,9 @@ def cornersHeuristic(state, problem):
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
     "*** YOUR CODE HERE ***"
-    
+    "Esta heuristica no considera las paredes y la idea es calcular la distancia"
+    "a las diferentes esquinas."
+
     # Esta heuristica tiene 741
     fringe = util.PriorityQueue()
     position, visited = state[0], state[1:]
