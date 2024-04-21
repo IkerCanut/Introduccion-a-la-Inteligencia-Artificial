@@ -83,6 +83,11 @@ Alimentos regionales de Argentina, podríamos definir las siguientes clases y su
 
    - Subclase 8: Escabechado
 
+   - Subclase 9: Pescados y Mariscos
+     - Subclase 9.1: Pescados de agua salada
+     - Subclase 9.2: Pescados de agua dulce
+     - Subclase 9.3: Mariscos
+
 5. Clase principal: Eventos Gastronómicos
    - Subclase 5.1: Festivales regionales
    - Subclase 5.2: Celebraciones
