@@ -23,6 +23,15 @@ Alimentos regionales de Argentina, podríamos definir las siguientes clases y su
      - Subclase 5.1: Dulces regionales
      - Subclase 5.2: Helados artesanales
      - Subclase 5.3: Postres tradicionales
+   - Subclase 6: Bebidas
+     - Subclase 6.1: Bebidas Alcoholicas
+       - Subclase 6.1.1: Vinos
+       - Subclase 6.1.2: Cervezas
+       - Subclase 6.1.3: Aperitivos
+     - Subclase 6.2: Bebidas no Alcoholicas
+       - Subclase 6.2.1: Mates
+       - Subclase 6.2.2: Infusiones de Hierbas
+       - Subclase 6.2.3: Jugos
 
 2. Clase principal: Regiones de Argentina
    -Subclase 1: Regiones
@@ -33,35 +42,47 @@ Alimentos regionales de Argentina, podríamos definir las siguientes clases y su
      - Subclase 1.5: Región Patagónica
 
 3. Clase principal: Condimentos regionales
-   -Subclase 1: Especies e Hierbas
+   - Subclase 1: Especies e Hierbas
+   - Subclase 3: Salsas y Aderezos
+   - Subclase 4: Marinados
+   - Subclase 5: Sales y Mezclas de Especias
 
 4. Clase principal: Métodos de preparación
-   -Subclase 1: Coció con caldo o agua
+   - Subclase 1: Cocido con caldo o agua
      - Subclase 1.1: Hervido
      - Subclase 1.2: Vapor
      - Subclase 1.3: A presión
 
-   -Subclase 2: Asado
+   - Subclase 2: Asado
      - Subclase 2.1: Al carbon
      - Subclase 2.2: A la leña
      - Subclase 2.3: En parrilla a gas
      - Subclase 2.4: En parrilla electrica
 
-   -Subclase 3: Fritura
+   - Subclase 3: Fritura
      - Subclase 3.1: En aceite
      - Subclase 3.2: En grasa
      - Subclase 3.3: Con aire caliente
      - Subclase 3.4: Profunda
 
-   -Subclase 4: Horneado
+   - Subclase 4: Horneado
      - Subclase 4.1: A gas
      - Subclase 4.2: A leña
      - Subclase 4.3: Cocción en microondas
 
-   -Subclase 5: Preparación en crudo
+   - Subclase 5: Preparación en crudo
      - Subclase 5.1: Ensaladas
      - Subclase 5.2: Ceviches
      - Subclase 5.3: Carpaccios
+
+   - Subclase 6: Salteados
+     - Subclase 6.1: En sarten
+     - Subclase 6.2: En wok
+  
+   - Subclase 7: Fermentación
+
+   - Subclase 8: Escabechado
+
 
 
 RELACIONES:
