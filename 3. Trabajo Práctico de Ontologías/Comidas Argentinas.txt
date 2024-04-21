@@ -83,6 +83,12 @@ Alimentos regionales de Argentina, podríamos definir las siguientes clases y su
 
    - Subclase 8: Escabechado
 
+5. Clase principal: Eventos Gastronómicos
+   - Subclase 5.1: Festivales regionales
+   - Subclase 5.2: Celebraciones
+
+6. Clase principal: Dieta y Nutrición
+   (e.g Comidas bajas en calorías, Comidas altas en proteínas, Comidas sin gluten)
 
 
 RELACIONES:
