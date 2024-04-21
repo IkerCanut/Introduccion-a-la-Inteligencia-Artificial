@@ -1,0 +1,382 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/owl/owlapi/turtle#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#contiene
+:contiene rdf:type owl:ObjectProperty ;
+          rdfs:domain :Alimentos ;
+          rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_alternativa_a
+:es_alternativa_a rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Alimentos ;
+                  rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_complementario_de
+:es_complementario_de rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Alimentos ;
+                      rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_de_la_region_de
+:es_de_la_region_de rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Alimentos ;
+                    rdfs:range :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_estacional_en
+:es_estacional_en rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Alimentos ;
+                  rdfs:range :Estaciones_del_ano .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_metodo_de_preparacion_de
+:es_metodo_de_preparacion_de rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Metodos_de_preparacion ;
+                             rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_parte_de
+:es_parte_de rdf:type owl:ObjectProperty ;
+             rdfs:domain :Alimentos ;
+             rdfs:range :Platos_o_Recetas .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_similar_a
+:es_similar_a rdf:type owl:ObjectProperty ;
+              rdfs:domain :Alimentos ;
+              rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_tipico_de
+:es_tipico_de rdf:type owl:ObjectProperty ;
+              rdfs:domain :Alimentos ;
+              rdfs:range :Culturas_o_Grupos_etnicos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_tradicional_en
+:es_tradicional_en rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Alimentos ;
+                   rdfs:range :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_un_tipo_de
+:es_un_tipo_de rdf:type owl:ObjectProperty ;
+               rdfs:domain :Carnes ;
+               rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#se_asocia_con
+:se_asocia_con rdf:type owl:ObjectProperty ;
+               rdfs:domain :Condimentos_regionales ;
+               rdfs:range :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#se_prepara_con
+:se_prepara_con rdf:type owl:ObjectProperty ;
+                rdfs:domain :Alimentos ;
+                rdfs:range :Condimentos_regionales .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#se_sirve_con
+:se_sirve_con rdf:type owl:ObjectProperty ;
+              rdfs:domain :Alimentos ;
+              rdfs:range :Alimentos .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#A_gas
+:A_gas rdf:type owl:Class ;
+       rdfs:subClassOf :Horneado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#A_la_lena
+:A_la_lena rdf:type owl:Class ;
+           rdfs:subClassOf :Asado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#A_lena
+:A_lena rdf:type owl:Class ;
+        rdfs:subClassOf :Horneado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#A_presion
+:A_presion rdf:type owl:Class ;
+           rdfs:subClassOf :Cocio_con_caldo_o_agua .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Al_carbon
+:Al_carbon rdf:type owl:Class ;
+           rdfs:subClassOf :Asado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Alimentos
+:Alimentos rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Arroz
+:Arroz rdf:type owl:Class ;
+       rdfs:subClassOf :Granos_y_cereales .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Asado
+:Asado rdf:type owl:Class ;
+       rdfs:subClassOf :Metodos_de_preparacion .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Carne_de_ave
+:Carne_de_ave rdf:type owl:Class ;
+              rdfs:subClassOf :Carnes .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Carne_de_cerdo
+:Carne_de_cerdo rdf:type owl:Class ;
+                rdfs:subClassOf :Carnes .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Carne_de_cordero
+:Carne_de_cordero rdf:type owl:Class ;
+                  rdfs:subClassOf :Carnes .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Carne_vacuna
+:Carne_vacuna rdf:type owl:Class ;
+              rdfs:subClassOf :Carnes .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Carnes
+:Carnes rdf:type owl:Class ;
+        rdfs:subClassOf :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Carpaccios
+:Carpaccios rdf:type owl:Class ;
+            rdfs:subClassOf :Preparacion_en_crudo .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Ceviches
+:Ceviches rdf:type owl:Class ;
+          rdfs:subClassOf :Preparacion_en_crudo .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Coccion_en_microondas
+:Coccion_en_microondas rdf:type owl:Class ;
+                       rdfs:subClassOf :Horneado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Cocio_con_caldo_o_agua
+:Cocio_con_caldo_o_agua rdf:type owl:Class ;
+                        rdfs:subClassOf :Metodos_de_preparacion .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Con_aire_caliente
+:Con_aire_caliente rdf:type owl:Class ;
+                   rdfs:subClassOf :Fritura .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Condimentos_regionales
+:Condimentos_regionales rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Culturas_o_Grupos_etnicos
+:Culturas_o_Grupos_etnicos rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Dulces_regionales
+:Dulces_regionales rdf:type owl:Class ;
+                   rdfs:subClassOf :Dulces_y_postres .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Dulces_y_postres
+:Dulces_y_postres rdf:type owl:Class ;
+                  rdfs:subClassOf :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Embutidos
+:Embutidos rdf:type owl:Class ;
+           rdfs:subClassOf :Carnes .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#En_aceite
+:En_aceite rdf:type owl:Class ;
+           rdfs:subClassOf :Fritura .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#En_grasa
+:En_grasa rdf:type owl:Class ;
+          rdfs:subClassOf :Fritura .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#En_parrilla_a_gas
+:En_parrilla_a_gas rdf:type owl:Class ;
+                   rdfs:subClassOf :Asado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#En_parrilla_electrica
+:En_parrilla_electrica rdf:type owl:Class ;
+                       rdfs:subClassOf :Asado .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Ensaladas
+:Ensaladas rdf:type owl:Class ;
+           rdfs:subClassOf :Preparacion_en_crudo .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Especies_e_Hierbas
+:Especies_e_Hierbas rdf:type owl:Class ;
+                    rdfs:subClassOf :Condimentos_regionales .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Estaciones_del_ano
+:Estaciones_del_ano rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Fritura
+:Fritura rdf:type owl:Class ;
+         rdfs:subClassOf :Metodos_de_preparacion .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Frutas_frescas
+:Frutas_frescas rdf:type owl:Class ;
+                rdfs:subClassOf :Vegetales_y_legumbres .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Granos_y_cereales
+:Granos_y_cereales rdf:type owl:Class ;
+                   rdfs:subClassOf :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Helados_artesanales
+:Helados_artesanales rdf:type owl:Class ;
+                     rdfs:subClassOf :Dulces_y_postres .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Hervido
+:Hervido rdf:type owl:Class ;
+         rdfs:subClassOf :Cocio_con_caldo_o_agua .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Horneado
+:Horneado rdf:type owl:Class ;
+          rdfs:subClassOf :Metodos_de_preparacion .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Lacteos
+:Lacteos rdf:type owl:Class ;
+         rdfs:subClassOf :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Leche
+:Leche rdf:type owl:Class ;
+       rdfs:subClassOf :Lacteos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Legumbres_secas
+:Legumbres_secas rdf:type owl:Class ;
+                 rdfs:subClassOf :Vegetales_y_legumbres .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Maiz
+:Maiz rdf:type owl:Class ;
+      rdfs:subClassOf :Granos_y_cereales .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Metodos_de_preparacion
+:Metodos_de_preparacion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Platos_o_Recetas
+:Platos_o_Recetas rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Postres_tradicionales
+:Postres_tradicionales rdf:type owl:Class ;
+                       rdfs:subClassOf :Dulces_y_postres .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Preparacion_en_crudo
+:Preparacion_en_crudo rdf:type owl:Class ;
+                      rdfs:subClassOf :Metodos_de_preparacion .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Profunda
+:Profunda rdf:type owl:Class ;
+          rdfs:subClassOf :Fritura .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Quesos
+:Quesos rdf:type owl:Class ;
+        rdfs:subClassOf :Lacteos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Region_Cuyo
+:Region_Cuyo rdf:type owl:Class ;
+             rdfs:subClassOf :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Region_Litoral
+:Region_Litoral rdf:type owl:Class ;
+                rdfs:subClassOf :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Region_Norte
+:Region_Norte rdf:type owl:Class ;
+              rdfs:subClassOf :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Region_Pampeana
+:Region_Pampeana rdf:type owl:Class ;
+                 rdfs:subClassOf :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Region_Patagonica
+:Region_Patagonica rdf:type owl:Class ;
+                   rdfs:subClassOf :Regiones_de_Argentina .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Regiones_de_Argentina
+:Regiones_de_Argentina rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Trigo
+:Trigo rdf:type owl:Class ;
+       rdfs:subClassOf :Granos_y_cereales .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Vapor
+:Vapor rdf:type owl:Class ;
+       rdfs:subClassOf :Cocio_con_caldo_o_agua .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Vegetales_y_legumbres
+:Vegetales_y_legumbres rdf:type owl:Class ;
+                       rdfs:subClassOf :Alimentos .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Verduras_frescas
+:Verduras_frescas rdf:type owl:Class ;
+                  rdfs:subClassOf :Vegetales_y_legumbres .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Yogur
+:Yogur rdf:type owl:Class ;
+       rdfs:subClassOf :Lacteos .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

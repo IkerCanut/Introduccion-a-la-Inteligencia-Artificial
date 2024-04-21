@@ -1,0 +1,83 @@
+Alimentos regionales de Argentina, podríamos definir las siguientes clases y subclases:
+
+1. Clase principal: Alimentos
+   - Subclase 1: Carnes
+     - Subclase 1.1: Carne vacuna
+     - Subclase 1.2: Carne de cordero
+     - Subclase 1.3: Carne de cerdo
+     - Subclase 1.4: Carne de ave
+     - Subclase 1.5: Embutidos (charcuteria)
+   - Subclase 2: Vegetales y legumbres
+     - Subclase 2.1: Verduras frescas
+     - Subclase 2.2: Legumbres secas
+     - Subclase 2.3: Frutas frescas
+   - Subclase 3: Granos y cereales
+     - Subclase 3.1: Maíz
+     - Subclase 3.2: Trigo
+     - Subclase 3.3: Arroz
+   - Subclase 4: Lácteos
+     - Subclase 4.1: Quesos
+     - Subclase 4.2: Leche
+     - Subclase 4.3: Yogur
+   - Subclase 5: Dulces y postres
+     - Subclase 5.1: Dulces regionales
+     - Subclase 5.2: Helados artesanales
+     - Subclase 5.3: Postres tradicionales
+
+2. Clase principal: Regiones de Argentina
+   -Subclase 1: Regiones
+     - Subclase 1.1: Región Norte
+     - Subclase 1.2: Región Litoral
+     - Subclase 1.3: Región Cuyo
+     - Subclase 1.4: Región Pampeana
+     - Subclase 1.5: Región Patagónica
+
+3. Clase principal: Condimentos regionales
+   -Subclase 1: Especies e Hierbas
+
+4. Clase principal: Métodos de preparación
+   -Subclase 1: Coció con caldo o agua
+     - Subclase 1.1: Hervido
+     - Subclase 1.2: Vapor
+     - Subclase 1.3: A presión
+
+   -Subclase 2: Asado
+     - Subclase 2.1: Al carbon
+     - Subclase 2.2: A la leña
+     - Subclase 2.3: En parrilla a gas
+     - Subclase 2.4: En parrilla electrica
+
+   -Subclase 3: Fritura
+     - Subclase 3.1: En aceite
+     - Subclase 3.2: En grasa
+     - Subclase 3.3: Con aire caliente
+     - Subclase 3.4: Profunda
+
+   -Subclase 4: Horneado
+     - Subclase 4.1: A gas
+     - Subclase 4.2: A leña
+     - Subclase 4.3: Cocción en microondas
+
+   -Subclase 5: Preparación en crudo
+     - Subclase 5.1: Ensaladas
+     - Subclase 5.2: Ceviches
+     - Subclase 5.3: Carpaccios
+
+
+RELACIONES:
+"Se prepara con": Dominio: Alimentos Codominio: Condimentos regionales
+"Es de la región de" : Dominio: Alimentos Codominio: Regiones de Argentina
+"Es un tipo de:" Dominio: Subclases de Alimentos Codominio: Clase principal: Alimentos
+-- "Contiene" : Dominio: Alimentos Codominio: Componentes (por ejemplo, nutrientes, ingredientes)
+"Es similar a": Dominio: Alimentos Codominio: Alimentos
+-- "Es parte de" : Dominio: Alimentos Codominio: Platos, Recetas
+"Se sirve con": Dominio: Alimentos Codominio: Alimentos
+"Es complementario de": Dominio: Alimentos Codominio: Alimentos
+"Es alternativa a": Dominio: Alimentos Codominio: Alimentos
+"Es tradicional en": Dominio: Alimentos Codominio: Regiones de Argentina
+"Es método de preparación de": Dominio: Métodos de preparación Codominio: Alimentos
+"Se asocia con": Dominio: Condimentos regionales Codominio: Alimentos
+"Es típico de": Dominio: Alimentos Codominio: Regiones Argentinas
+
+en las que marque con --, tal vez deberíamos agregar una clase ingredientes no lo sé, en el caso de la relación es parte de tal vez deberíamos agregar una clase "platos y recetas"
+o no tener esas relaciones
