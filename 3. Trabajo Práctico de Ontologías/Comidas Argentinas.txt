@@ -32,10 +32,10 @@ Alimentos regionales de Argentina, podríamos definir las siguientes clases y su
        - Subclase 6.2.1: Mates
        - Subclase 6.2.2: Infusiones de Hierbas
        - Subclase 6.2.3: Jugos
-   - Subclase 7: Pescados y Mariscos
-     - Subclase 7.1: Pescados de agua salada
-     - Subclase 7.2: Pescados de agua dulce
-     - Subclase 7.3: Mariscos
+    - Subclase 7: Pescados y Mariscos
+      - Subclase 7.1: Pescados de agua salada
+      - Subclase 7.2: Pescados de agua dulce
+      - Subclase 7.3: Mariscos
 
 2. Clase principal: Regiones de Argentina
    -Subclase 1: Regiones
