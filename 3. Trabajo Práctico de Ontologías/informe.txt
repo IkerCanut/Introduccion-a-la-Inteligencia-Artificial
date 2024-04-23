@@ -1,8 +1,9 @@
+INFORME
 Descripción del dominio elegido:
 
-Comidas argentinas, basadas en alimentos que se producen en distintas regiones de argentina. En la ontología se relacionan las regiones del pais con recetas de platos y eventos que tienen relacion con gastronomía Ej "Fiesta Nacional del Imigrante". El objetivo es clasificar recetas en regiones argentinas con eventos con gastronomicos
+Comidas argentinas, basadas en alimentos que se producen en distintas regiones de argentina. En la ontología se relacionan las regiones del país con recetas de platos y eventos que tienen relacion con gastronomía Ej "Fiesta Nacional del Inmigrante". El objetivo es clasificar recetas en regiones argentinas con eventos con gastronomicos
 
-Fuente para representar el domnio:
+Fuente para representar el dominio:
 - Saberes propios
 - Ministerio del interior fiestas nacionales https://www.argentina.gob.ar/pais/fiestas
 - Ministerio del interior productos regionales: https://www.argentina.gob.ar/economia/politicaeconomica/regionalysectorial/economiasregionales/icer
@@ -11,22 +12,36 @@ Fuente para representar el domnio:
 - Calorias alimentos: https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/
   Ejemplo: Carnes Asadas: https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/gen%C3%A9rico/carne-asada
 
-Otras ontologías considerasdas:
+Otras ontologías consideradas:
 -FoodOntology https://github.com/FoodOntology/foodon
  La descartamos por lo grande y compleja: es una ontología que es muy detallada y sobrepasaba las necesidades del dominio elegido
 
 Conceptos representados:
+"tiene_ingrediente" Dominio: Redetas Codominio: Alimentos
+"es_ingrediente_de" Inversa de "tiene_ingredinte”
+"es_consumido_en" Dominio: Redetas Codominio: "Regiones de Argentina"
+"es_preparado_con_metodo" Dominio: Redetas Codominio: "Méto de Preparación"
+---> "es_producido_en" Dominio: Redetas Codominio: "Regiones de Argentina"
+---> debería ser
+---> "es_producido_en" Dominio: Alimentos Codominio: "Regiones de Argentina"
+---> ya se tiene "es consumido en" que representa mejor la relación receta region
+"evento_ubicado_en" Dominio: "Evento Gastronomico" Codominio: "Regiones de Argentina"
+"region_tiene_evento" Inversa de "evento_ubicado_en"
+"se_condimenta_con" Dominio: Recetas Codominio: "Condimentos Regionales"
+"se_consume_en_evento" Dominio: Redetas Codominio: "Eventos Gastronómicos"
 
+Esquema de las instancias propuestas a modo de ejemplo y sus relaciones:
 
-Esquema de las instacias propuestas a modo de ejemplo y sus relaciones:
+Completar.
 
-Consultas con su formulación en leguaje natural y en la sistaxis DL Query:
+Consultas con su formulación en lenguaje natural y en la sintaxis DL Query:
 Consulta:
-"Viajo a la region pampeana y me gustaría probar la carne argentina en alguna fiesta gastronomica pero tengo restricciones caloricas de más de 300 ka a 1500 ka"
+"Viajó a la región pampeana y me gustaría probar la carne argentina en alguna fiesta gastronómica pero tengo restricciones calóricas de más de 300 ka a 1500 ka"
 (calorias_por_porcion some xsd:decimal [>= 300, <= 1500]) and (tiene_ingrediente some Carnes) and (es_producido_en some {'Región Pampeana'})
 
+completar
+
 Conclusión:
-Una de las cosas que queríamos que nuestra ontología infiera es que recetas son vegetarianas, libres de gluten, etc pero nos vimos con la dificultad de definir Recetas_vegetarians con un "EquivalentTo" con la expresión Recetas and not (tiene_ingrediente some Carnes) pero no tuvimos exito. Nnos dimos cuenta que estabamos con un problema de asunción de mundo abierto (Open World Assumption, OWA) que establece que lo que no está expresamente afirmado como verdadero no se considera automáticamente falso. Esto significa que en un contexto donde se aplica la OWA, la falta de información no implica negación o contradicción.
+Una de las cosas que queríamos que nuestra ontología infiera es que las recetas son vegetarianas, libres de gluten o etc. Para eso definimos Recetas_vegetarians con un "EquivalentTo" con la expresión Recetas and not (tiene_ingrediente some Carnes) pero no tuvimos éxito. Nos dimos cuenta que estábamos con un problema de asunción de mundo abierto (Open World Assumption, OWA) que establece que lo que no está expresamente afirmado como verdadero no se considera automáticamente falso. Esto significa que en un contexto donde se aplica la OWA, la falta de información no implica negación o contradicción.
 
-
-
+completar
