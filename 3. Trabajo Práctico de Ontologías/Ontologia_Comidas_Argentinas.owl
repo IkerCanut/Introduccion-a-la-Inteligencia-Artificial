@@ -13,63 +13,36 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#contiene
-:contiene rdf:type owl:ObjectProperty ;
-          rdfs:domain :Alimentos ;
-          rdfs:range :Alimentos .
+###  http://www.co-ode.org/ontologies/ont.owl#tiene_ingrediente
+<http://www.co-ode.org/ontologies/ont.owl#tiene_ingrediente> rdf:type owl:ObjectProperty ;
+                                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                                             owl:inverseOf :es_ingrediente_de ;
+                                                             rdfs:domain <http://www.co-ode.org/ontologies/ont.owl#Recetas> ;
+                                                             rdfs:range :Alimentos .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_alternativa_a
-:es_alternativa_a rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Alimentos ;
-                  rdfs:range :Alimentos .
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_ingrediente_de
+:es_ingrediente_de rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Alimentos ;
+                   rdfs:range <http://www.co-ode.org/ontologies/ont.owl#Recetas> .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_complementario_de
-:es_complementario_de rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Alimentos ;
-                      rdfs:range :Alimentos .
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_preparado_con_metodo
+:es_preparado_con_metodo rdf:type owl:ObjectProperty ;
+                         rdfs:domain <http://www.co-ode.org/ontologies/ont.owl#Recetas> ;
+                         rdfs:range :Metodos_de_preparacion .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_de_la_region_de
-:es_de_la_region_de rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Alimentos ;
-                    rdfs:range :Regiones_de_Argentina .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_estacional_en
-:es_estacional_en rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Alimentos ;
-                  rdfs:range :Estaciones_del_ano .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_metodo_de_preparacion_de
-:es_metodo_de_preparacion_de rdf:type owl:ObjectProperty ;
-                             rdfs:domain :Metodos_de_preparacion ;
-                             rdfs:range :Alimentos .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_parte_de
-:es_parte_de rdf:type owl:ObjectProperty ;
-             rdfs:domain :Alimentos ;
-             rdfs:range :Platos_o_Recetas .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_similar_a
-:es_similar_a rdf:type owl:ObjectProperty ;
-              rdfs:domain :Alimentos ;
-              rdfs:range :Alimentos .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#es_tipico_de
-:es_tipico_de rdf:type owl:ObjectProperty ;
-              rdfs:domain :Alimentos ;
-              rdfs:range :Culturas_o_Grupos_etnicos .
+###  http://www.semanticweb.org/owl/owlapi/turtle#es_producido_en
+:es_producido_en rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Alimentos ;
+                 rdfs:range :Regiones_de_Argentina ;
+                 rdfs:comment "origen de su producción tipica" .
 
 
 ###  http://www.semanticweb.org/owl/owlapi/turtle#es_tradicional_en
 :es_tradicional_en rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Alimentos ;
+                   rdfs:domain <http://www.co-ode.org/ontologies/ont.owl#Recetas> ;
                    rdfs:range :Regiones_de_Argentina .
 
 
@@ -91,15 +64,32 @@
                 rdfs:range :Condimentos_regionales .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#se_sirve_con
-:se_sirve_con rdf:type owl:ObjectProperty ;
-              rdfs:domain :Alimentos ;
-              rdfs:range :Alimentos .
-
-
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Encurtido
+<http://www.co-ode.org/ontologies/ont.owl#Encurtido> rdf:type owl:Class ;
+                                                     rdfs:subClassOf :Crudo ;
+                                                     rdfs:comment "preparación en vinagre" .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Recetas
+<http://www.co-ode.org/ontologies/ont.owl#Recetas> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#recetas_vegetarianas
+<http://www.co-ode.org/ontologies/ont.owl#recetas_vegetarianas> rdf:type owl:Class ;
+                                                                owl:equivalentClass [ owl:intersectionOf ( <http://www.co-ode.org/ontologies/ont.owl#Recetas>
+                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                             owl:onProperty <http://www.co-ode.org/ontologies/ont.owl#tiene_ingrediente> ;
+                                                                                                             owl:someValuesFrom :Vegetales_y_legumbres
+                                                                                                           ]
+                                                                                                         ) ;
+                                                                                      rdf:type owl:Class
+                                                                                    ] ;
+                                                                rdfs:subClassOf <http://www.co-ode.org/ontologies/ont.owl#Recetas> .
+
 
 ###  http://www.semanticweb.org/owl/owlapi/turtle#A_gas
 :A_gas rdf:type owl:Class ;
@@ -165,16 +155,6 @@
         rdfs:subClassOf :Alimentos .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#Carpaccios
-:Carpaccios rdf:type owl:Class ;
-            rdfs:subClassOf :Preparacion_en_crudo .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#Ceviches
-:Ceviches rdf:type owl:Class ;
-          rdfs:subClassOf :Preparacion_en_crudo .
-
-
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Coccion_en_microondas
 :Coccion_en_microondas rdf:type owl:Class ;
                        rdfs:subClassOf :Horneado .
@@ -194,8 +174,15 @@
 :Condimentos_regionales rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#Culturas_o_Grupos_etnicos
-:Culturas_o_Grupos_etnicos rdf:type owl:Class .
+###  http://www.semanticweb.org/owl/owlapi/turtle#Crudo
+:Crudo rdf:type owl:Class ;
+       rdfs:subClassOf :Metodos_de_preparacion .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Curado
+:Curado rdf:type owl:Class ;
+        rdfs:subClassOf :Crudo ;
+        rdfs:comment "Alimentos crudos en sal" .
 
 
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Dulces_regionales
@@ -233,18 +220,9 @@
                        rdfs:subClassOf :Asado .
 
 
-###  http://www.semanticweb.org/owl/owlapi/turtle#Ensaladas
-:Ensaladas rdf:type owl:Class ;
-           rdfs:subClassOf :Preparacion_en_crudo .
-
-
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Especies_e_Hierbas
 :Especies_e_Hierbas rdf:type owl:Class ;
                     rdfs:subClassOf :Condimentos_regionales .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#Estaciones_del_ano
-:Estaciones_del_ano rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Fritura
@@ -297,22 +275,19 @@
       rdfs:subClassOf :Granos_y_cereales .
 
 
+###  http://www.semanticweb.org/owl/owlapi/turtle#Marinados
+:Marinados rdf:type owl:Class ;
+           rdfs:subClassOf :Crudo ;
+           rdfs:comment "alimentos condimentados y mezclados. Ejemplo ensaladas" .
+
+
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Metodos_de_preparacion
 :Metodos_de_preparacion rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#Platos_o_Recetas
-:Platos_o_Recetas rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Postres_tradicionales
 :Postres_tradicionales rdf:type owl:Class ;
                        rdfs:subClassOf :Dulces_y_postres .
-
-
-###  http://www.semanticweb.org/owl/owlapi/turtle#Preparacion_en_crudo
-:Preparacion_en_crudo rdf:type owl:Class ;
-                      rdfs:subClassOf :Metodos_de_preparacion .
 
 
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Profunda
@@ -377,6 +352,73 @@
 ###  http://www.semanticweb.org/owl/owlapi/turtle#Yogur
 :Yogur rdf:type owl:Class ;
        rdfs:subClassOf :Lacteos .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Pavo
+<http://www.co-ode.org/ontologies/ont.owl#Pavo> rdf:type owl:NamedIndividual ,
+                                                         :Carne_de_ave .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Pollo
+<http://www.co-ode.org/ontologies/ont.owl#Pollo> rdf:type owl:NamedIndividual ,
+                                                          :Carne_de_ave .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Pollo_al_disco
+<http://www.co-ode.org/ontologies/ont.owl#Pollo_al_disco> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.co-ode.org/ontologies/ont.owl#Recetas> ;
+                                                          <http://www.co-ode.org/ontologies/ont.owl#tiene_ingrediente> <http://www.co-ode.org/ontologies/ont.owl#Pollo> ,
+                                                                                                                       <http://www.co-ode.org/ontologies/ont.owl#cebolla> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#cebolla
+<http://www.co-ode.org/ontologies/ont.owl#cebolla> rdf:type owl:NamedIndividual ,
+                                                            :Verduras_frescas .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#ensalada_lechuga_tomate
+<http://www.co-ode.org/ontologies/ont.owl#ensalada_lechuga_tomate> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.co-ode.org/ontologies/ont.owl#Recetas> ;
+                                                                   <http://www.co-ode.org/ontologies/ont.owl#tiene_ingrediente> <http://www.co-ode.org/ontologies/ont.owl#lechuga> ,
+                                                                                                                                <http://www.co-ode.org/ontologies/ont.owl#tomate> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#lechuga
+<http://www.co-ode.org/ontologies/ont.owl#lechuga> rdf:type owl:NamedIndividual ,
+                                                            :Verduras_frescas .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#tomate
+<http://www.co-ode.org/ontologies/ont.owl#tomate> rdf:type owl:NamedIndividual ,
+                                                           :Frutas_frescas .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.co-ode.org/ontologies/ont.owl#Recetas>
+                :Condimentos_regionales
+                :Metodos_de_preparacion
+                :Regiones_de_Argentina
+                :Vegetales_y_legumbres
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Carnes
+                :Dulces_y_postres
+                :Granos_y_cereales
+                :Lacteos
+                :Vegetales_y_legumbres
+              )
+] .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
