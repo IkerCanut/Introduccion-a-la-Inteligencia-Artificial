@@ -19,16 +19,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_01a0d1f0_b331_4ce1_bd35_975714930291"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_093992db_8f58_45b4_a890_3ef063175868"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_0ef912bb_6ab2_44fb_9a2e_c96914c1bc36"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_13a4e498_fe6e_4c5e_af68_e038f3207f07"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_142d6e37_6ad1_4128_8114_a6cd0d2e3435"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_14aea897_848a_4e70_b446_1a254993b19d"/>
@@ -40,12 +31,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_1828b235_6431_43c8_bfe8_f9b4f54cd311"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_20e76071_827a_4f6f_b367_74eb589f0ffc"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_26453228_8a4c_4f3d_8127_cd2ef4be1c01"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_269c9b5f_3e42_4329_a18a_ef72b1d8fa0e"/>
     </Declaration>
     <Declaration>
@@ -55,9 +40,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_2c6b6c52_0c51_4d92_9437_a7102fc563e9"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_2e320196_d56a_41e2_a838_c69523ef1433"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_342181c9_9888_44e4_8ffd_ff6f57901473"/>
     </Declaration>
     <Declaration>
@@ -65,12 +47,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_3d34b349_401d_4fca_b4d2_de80e5148a9c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_4075cb48_435b_4344_91c0_61d45e4b6ec4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_42493b3c_010c_4b45_a4b5_b730a98bbf62"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_45f33a90_c7e6_4cad_bf83_2392a6d9b9d9"/>
@@ -85,10 +61,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_53b76307_c463_4cdd_bd4c_fcb0f88acc24"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_5788794b_c18a_4ef8_b517_fc17f8ab31f2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_584e0c7f_1f91_4f62_b49f_4c8b0b05ad17"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_58d67db4_fb05_4e5a_89fa_8e8ef0d9e9bb"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_5b3f14b5_bad6_4d4c_90c0_057cc628fa33"/>
@@ -106,16 +79,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_859126d1_d229_4748_8c7d_1b484efa933f"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_896584f5_3862_40af_81be_21a471de211c"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_8ec62a30_380b_46e4_a302_fb5eaecae4a6"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_9a889671_0982_44b8_82e9_041674f3badc"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_9e9e4f93_5ebd_465f_b0d7_df741d3de672"/>
@@ -127,40 +94,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a1dad1f8_a5db_4c4e_92fa_3cbc2ec3699f"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_a6e5316f_88d0_431d_9ca6_a9fc6eb8aabd"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a8c0ad5a_937d_4386_b3f5_ca6071961c43"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_aceca9e8_760d_4563_b12f_d59b523be35d"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ad54aef0_e2eb_4257_b8d1_109f0b78ad6b"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ada2569c_ee42_4741_a1c9_1fa48e5dba5b"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_af1ba4ed_d84b_431a_9556_7192121ce58f"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_b0443cfb_0a60_4a4a_8330_f6fa6ada8565"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b10ae349_a7e9_4beb_ab3a_a3906e6acaf3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b27889c8_cab9_4743_ad32_d3274789be05"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b9b89995_8d5b_4b38_a362_a260efc5615c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_baca38f4_9c72_4ac6_8962_29a2469820ec"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_bd1b48f1_2289_4a93_a772_aa2c632f63ce"/>
@@ -172,19 +115,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_bf0f4040_8b92_43dc_82c0_73b3dc33288d"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c05e09b3_5558_4469_8db2_d6b8f3b585f2"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c0e2816a_8021_44f2_b4e4_6987da0a4f50"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c28b2aee_5a77_4ad7_bd3b_0fbf8ccb2446"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c2a1817d_10e3_4d35_b196_1888033af48c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c3ef4461_d90b_4ab1_8b93_63fe447decc4"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
@@ -221,9 +155,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e54e1e73_b813_421c_9805_122126d4dc46"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_e820f74e_0f80_4cf5_98c2_d1e040e458fc"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e901629d_951a_4fb1_87f4_559c2c67397c"/>
@@ -268,7 +199,13 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_6eee6cd8_6e75_422f_a184_3762c0801278"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_7bfc7b48_4369_42b1_adc8_73cdbb96c37a"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_006b911a_e322_4066_8cbe_7e0c513ef021"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_03521a89_7d01_4ead_9e13_1d588f5fe5a4"/>
@@ -286,6 +223,9 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_0c996d0d_de3b_4673_bbb3_1d297c191c2d"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_0d32ff9d_e1f6_4344_bdce_67c6c77c79bd"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_0ee85e55_9123_4977_8ed0_eb628d6fa74b"/>
     </Declaration>
     <Declaration>
@@ -295,7 +235,16 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_12acdd9c_0d7d_4c5c_bbff_33d7b2d4d467"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_13a39713_e727_4e2e_a451_d2977e2b8be0"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_15f96285_774d_48c6_b2cd_3f6c63ce2e92"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_168874ea_2316_479f_ad63_54834002759c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_169d1f69_9f9d_4a9b_a8d2_1f3554da0d9a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_16d7adbc_1868_416d_9591_f11a8f148fd1"/>
@@ -316,16 +265,25 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_263531ed_9f86_4915_a0e8_487e0b3b8da6"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_27f4df7e_3163_4f11_92c9_1c79d8a3705d"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_28a7f093_2152_4ba1_af6d_53bd194e1106"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_29512089_cbf1_4032_bca3_d92f50840846"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2af7a573_7fa5_4948_abe1_285f39069606"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2c250c8e_6a6a_456c_abbb_5fe32ab484be"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2f83d7e7_9aeb_4087_84d2_89eb6ff6e399"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_32385f71_d305_4279_9043_9c1d36b4ff78"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_32a72ac6_9f0e_4e54_92f9_bf9d7848adae"/>
@@ -340,7 +298,13 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_38b10d0c_c759_4cc4_9a4d_34755b729c37"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_38ed6d1a_888f_4a23_859f_11f2f3772868"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_3c3860c1_4b08_49b6_a32d_1a585026dacd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_3e550c5c_53f5_4aba_bd3a_d8cb0b3272f1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_3ed06005_2b43_4142_95fb_f5379dfc8e80"/>
@@ -370,10 +334,19 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48220018_10f8_4fe5_9b5b_6bef3eebf527"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_4a1fbac7_7d21_4120_8c45_ce5da43bc2e8"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_4fb3e8bd_ef67_4a66_90ce_6d1dbb9edecc"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_50ebe836_2773_409e_bb2d_352ea682b335"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_588972a7_f4f0_4d6b_a198_3a421b2a35d3"/>
@@ -394,10 +367,22 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_62d1eed9_60a1_4f2b_a743_63e1f09b17e8"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6394ee03_218c_48e1_8493_1f44f9825280"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_656feb7a_957e_41b9_a1df_7c0bdf099eb0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6b11b90e_87ff_4e94_aa1b_f2a810aadfae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6d3254f6_84c5_4d2d_aebb_141c5f521af7"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6d4c180f_b8e7_4fdf_8949_6d7c8781dbb1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_72ac5d11_cdc7_42cb_9d94_9efca78acce2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_75169779_e208_4a57_8a6f_11c63286aaaf"/>
@@ -421,6 +406,9 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_7cb94028_e667_4a20_948d_68ed9b78f49d"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_7e866b10_e2c6_44ea_b76a_bdc942edbb81"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_801fb3eb_0252_4555_8895_559b49031575"/>
     </Declaration>
     <Declaration>
@@ -433,10 +421,16 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_86566650_6765_4c71_b89d_917f4992b5b4"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_871cfa5d_8210_4da6_a96a_30b398b39a4c"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_874c6b1e_5b29_4e4a_9636_0263a6f8ad48"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_87f7c659_fa85_4bd0_b508_8eb904c46756"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_8964784c_b635_4d55_9f4c_ee2c3b761516"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_8f1064ef_6326_468a_975b_c32f97f41940"/>
@@ -454,6 +448,12 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_958408ec_12fe_4091_bdc1_2c09f763e671"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96dcf963_6d71_480a_916c_e7780cf88bc6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_98e73970_0041_44a3_8277_1dd9152eab55"/>
     </Declaration>
     <Declaration>
@@ -469,6 +469,9 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_9e899899_e536_4289_ae19_2bdd5ac85e5f"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a0ec8144_7929_4ca9_af6d_ff621dfee138"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a5e3e011_e8d4_4b70_9d6b_73d2836e4d75"/>
     </Declaration>
     <Declaration>
@@ -478,7 +481,25 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a92667fa_ca60_4d36_a703_bb59cf9e3172"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_ad0fd5f8_2284_430d_afd0_238360c2513f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b3138753_7aa8_406f_ae7a_0317adab0422"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b46157fa_76fc_48ac_bc06_476df738cfc2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_baf71ce6_de34_4092_b26d_868fbb70fe29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bb0776c0_81e3_4a66_8ef1_4867bc0db0de"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bc3c1f31_6d69_4cd0_b0a8_860db4bd93cc"/>
@@ -487,7 +508,16 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bc417125_a685_499d_bb1c_da5de1fd670e"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_cbcbd8d9_4d73_4455_bdf8_2159036278c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d7cc1317_915b_4821_85b7_28e78cd06545"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d8ac9322_30bd_46a9_a257_d92e7581434d"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_dbe010a4_e489_4668_b5f1_37b701b753ba"/>
@@ -497,6 +527,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_e5e48ba7_c763_43e6_af9c_9f3a3975d9b4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_e6c2edec_c8d9_4a10_a1ef_fbb96737314a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_e78fdfee_0ccd_4913_8e8f_4993fe41268e"/>
@@ -514,7 +547,19 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_effb60d0_bcf6_44d2_839b_27c00d2ab955"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f302a9cc_2aa2_45e0_b088_a3d44ad27645"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f31afa4c_6b50_4d48_9a85_d23373a3dcae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f471e8c5_3282_499e_8420_0de408235986"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_fe1543e4_2dc2_484b_891d_1931c20e1d59"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_fe2e786c_947b_4729_adf7_d06a7d5311cc"/>
@@ -531,20 +576,8 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e9a788d9_808a_4c8c_9872_49c99f418be3"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_093992db_8f58_45b4_a890_3ef063175868"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_0ef912bb_6ab2_44fb_9a2e_c96914c1bc36"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a8c0ad5a_937d_4386_b3f5_ca6071961c43"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_13a4e498_fe6e_4c5e_af68_e038f3207f07"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_142d6e37_6ad1_4128_8114_a6cd0d2e3435"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_14aea897_848a_4e70_b446_1a254993b19d"/>
@@ -559,14 +592,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_859126d1_d229_4748_8c7d_1b484efa933f"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_20e76071_827a_4f6f_b367_74eb589f0ffc"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_26453228_8a4c_4f3d_8127_cd2ef4be1c01"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_db3badf2_11cf_4809_9427_16b5e09a5eb8"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_269c9b5f_3e42_4329_a18a_ef72b1d8fa0e"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_01a0d1f0_b331_4ce1_bd35_975714930291"/>
     </SubClassOf>
@@ -579,10 +604,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_53b76307_c463_4cdd_bd4c_fcb0f88acc24"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_2e320196_d56a_41e2_a838_c69523ef1433"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_342181c9_9888_44e4_8ffd_ff6f57901473"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e9a788d9_808a_4c8c_9872_49c99f418be3"/>
     </SubClassOf>
@@ -593,14 +614,6 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_3d34b349_401d_4fca_b4d2_de80e5148a9c"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_859126d1_d229_4748_8c7d_1b484efa933f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_4075cb48_435b_4344_91c0_61d45e4b6ec4"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_42493b3c_010c_4b45_a4b5_b730a98bbf62"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_45f33a90_c7e6_4cad_bf83_2392a6d9b9d9"/>
@@ -619,12 +632,8 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e9a788d9_808a_4c8c_9872_49c99f418be3"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_5788794b_c18a_4ef8_b517_fc17f8ab31f2"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_584e0c7f_1f91_4f62_b49f_4c8b0b05ad17"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_db3badf2_11cf_4809_9427_16b5e09a5eb8"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_58d67db4_fb05_4e5a_89fa_8e8ef0d9e9bb"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_53b76307_c463_4cdd_bd4c_fcb0f88acc24"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_5b3f14b5_bad6_4d4c_90c0_057cc628fa33"/>
@@ -654,20 +663,12 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_deefc2a8_1661_4825_a33e_22129c6c7f46"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_896584f5_3862_40af_81be_21a471de211c"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_8ec62a30_380b_46e4_a302_fb5eaecae4a6"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_bd1b48f1_2289_4a93_a772_aa2c632f63ce"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c0e2816a_8021_44f2_b4e4_6987da0a4f50"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_9a889671_0982_44b8_82e9_041674f3badc"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a02c9481_9a17_4cfb_8c59_1629a03918ff"/>
@@ -678,10 +679,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_b0443cfb_0a60_4a4a_8330_f6fa6ada8565"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_a6e5316f_88d0_431d_9ca6_a9fc6eb8aabd"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a8c0ad5a_937d_4386_b3f5_ca6071961c43"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e9a788d9_808a_4c8c_9872_49c99f418be3"/>
     </SubClassOf>
@@ -690,40 +687,12 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c0e2816a_8021_44f2_b4e4_6987da0a4f50"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_aceca9e8_760d_4563_b12f_d59b523be35d"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ad54aef0_e2eb_4257_b8d1_109f0b78ad6b"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ada2569c_ee42_4741_a1c9_1fa48e5dba5b"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_af1ba4ed_d84b_431a_9556_7192121ce58f"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_fb373f13_5c55_415c_87e2_682149b7ed39"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_b0443cfb_0a60_4a4a_8330_f6fa6ada8565"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_deefc2a8_1661_4825_a33e_22129c6c7f46"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b10ae349_a7e9_4beb_ab3a_a3906e6acaf3"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b27889c8_cab9_4743_ad32_d3274789be05"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b9b89995_8d5b_4b38_a362_a260efc5615c"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_baca38f4_9c72_4ac6_8962_29a2469820ec"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_bd1b48f1_2289_4a93_a772_aa2c632f63ce"/>
@@ -738,20 +707,8 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c0e2816a_8021_44f2_b4e4_6987da0a4f50"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c05e09b3_5558_4469_8db2_d6b8f3b585f2"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c28b2aee_5a77_4ad7_bd3b_0fbf8ccb2446"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a8c0ad5a_937d_4386_b3f5_ca6071961c43"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c2a1817d_10e3_4d35_b196_1888033af48c"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c3ef4461_d90b_4ab1_8b93_63fe447decc4"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
@@ -794,10 +751,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_859126d1_d229_4748_8c7d_1b484efa933f"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_e820f74e_0f80_4cf5_98c2_d1e040e458fc"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e901629d_951a_4fb1_87f4_559c2c67397c"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_9e9e4f93_5ebd_465f_b0d7_df741d3de672"/>
     </SubClassOf>
@@ -832,27 +785,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_deefc2a8_1661_4825_a33e_22129c6c7f46"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_093992db_8f58_45b4_a890_3ef063175868"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_20e76071_827a_4f6f_b367_74eb589f0ffc"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b9b89995_8d5b_4b38_a362_a260efc5615c"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_e820f74e_0f80_4cf5_98c2_d1e040e458fc"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_0ef912bb_6ab2_44fb_9a2e_c96914c1bc36"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c28b2aee_5a77_4ad7_bd3b_0fbf8ccb2446"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_d2917d48_2f44_479f_a8ea_b67ed036de75"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e0141887_b652_4bbc_b1e7_7958953086a3"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_13a4e498_fe6e_4c5e_af68_e038f3207f07"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_896584f5_3862_40af_81be_21a471de211c"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_9a889671_0982_44b8_82e9_041674f3badc"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ada2569c_ee42_4741_a1c9_1fa48e5dba5b"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_142d6e37_6ad1_4128_8114_a6cd0d2e3435"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_ad54aef0_e2eb_4257_b8d1_109f0b78ad6b"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c05e09b3_5558_4469_8db2_d6b8f3b585f2"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_14aea897_848a_4e70_b446_1a254993b19d"/>
@@ -871,10 +807,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e54e1e73_b813_421c_9805_122126d4dc46"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_26453228_8a4c_4f3d_8127_cd2ef4be1c01"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_584e0c7f_1f91_4f62_b49f_4c8b0b05ad17"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_269c9b5f_3e42_4329_a18a_ef72b1d8fa0e"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e49627b0_c6a6_4343_a9c1_4896a89ac178"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_fb927ea9_9fa2_4749_b244_3811ad63bc2a"/>
@@ -887,28 +819,12 @@
     <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_2c6b6c52_0c51_4d92_9437_a7102fc563e9"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_48c2b08c_3efe_452d_a79a_22e2fd70c5f7"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_58d67db4_fb05_4e5a_89fa_8e8ef0d9e9bb"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a02c9481_9a17_4cfb_8c59_1629a03918ff"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_2e320196_d56a_41e2_a838_c69523ef1433"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b10ae349_a7e9_4beb_ab3a_a3906e6acaf3"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c2a1817d_10e3_4d35_b196_1888033af48c"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_4075cb48_435b_4344_91c0_61d45e4b6ec4"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_42493b3c_010c_4b45_a4b5_b730a98bbf62"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_a6e5316f_88d0_431d_9ca6_a9fc6eb8aabd"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_aceca9e8_760d_4563_b12f_d59b523be35d"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_c3ef4461_d90b_4ab1_8b93_63fe447decc4"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_45f33a90_c7e6_4cad_bf83_2392a6d9b9d9"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_658e0af7_45be_421b_bae1_3f6df54fa585"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_5788794b_c18a_4ef8_b517_fc17f8ab31f2"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_b27889c8_cab9_4743_ad32_d3274789be05"/>
-        <Class IRI="http://purl.obolibrary.org/obo/DOID_baca38f4_9c72_4ac6_8962_29a2469820ec"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_859126d1_d229_4748_8c7d_1b484efa933f"/>
@@ -937,6 +853,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_f5a5bc07_1b97_4dc3_a411_662b52a9e324"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_006b911a_e322_4066_8cbe_7e0c513ef021"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_af1ba4ed_d84b_431a_9556_7192121ce58f"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_03521a89_7d01_4ead_9e13_1d588f5fe5a4"/>
     </ClassAssertion>
@@ -957,6 +877,10 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_0c996d0d_de3b_4673_bbb3_1d297c191c2d"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_0d32ff9d_e1f6_4344_bdce_67c6c77c79bd"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_1828b235_6431_43c8_bfe8_f9b4f54cd311"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_0ee85e55_9123_4977_8ed0_eb628d6fa74b"/>
     </ClassAssertion>
@@ -969,8 +893,20 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_12acdd9c_0d7d_4c5c_bbff_33d7b2d4d467"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_e901629d_951a_4fb1_87f4_559c2c67397c"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_13a39713_e727_4e2e_a451_d2977e2b8be0"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_5172f8e0_5cfd_4a50_9dfc_53ec2c888124"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_15f96285_774d_48c6_b2cd_3f6c63ce2e92"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_168874ea_2316_479f_ad63_54834002759c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_169d1f69_9f9d_4a9b_a8d2_1f3554da0d9a"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_f5a5bc07_1b97_4dc3_a411_662b52a9e324"/>
@@ -997,6 +933,10 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_263531ed_9f86_4915_a0e8_487e0b3b8da6"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_27f4df7e_3163_4f11_92c9_1c79d8a3705d"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c28b2aee_5a77_4ad7_bd3b_0fbf8ccb2446"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_28a7f093_2152_4ba1_af6d_53bd194e1106"/>
     </ClassAssertion>
@@ -1005,12 +945,20 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_29512089_cbf1_4032_bca3_d92f50840846"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_8ec62a30_380b_46e4_a302_fb5eaecae4a6"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2af7a573_7fa5_4948_abe1_285f39069606"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_0ef912bb_6ab2_44fb_9a2e_c96914c1bc36"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2c250c8e_6a6a_456c_abbb_5fe32ab484be"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_847b9296_914d_442a_8f2e_a89b719beafe"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2f83d7e7_9aeb_4087_84d2_89eb6ff6e399"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_32385f71_d305_4279_9043_9c1d36b4ff78"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_6482b547_303d_4272_a782_111015d49010"/>
@@ -1029,8 +977,16 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_38b10d0c_c759_4cc4_9a4d_34755b729c37"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_db3badf2_11cf_4809_9427_16b5e09a5eb8"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_38ed6d1a_888f_4a23_859f_11f2f3772868"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e49627b0_c6a6_4343_a9c1_4896a89ac178"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_3c3860c1_4b08_49b6_a32d_1a585026dacd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_e901629d_951a_4fb1_87f4_559c2c67397c"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_3e550c5c_53f5_4aba_bd3a_d8cb0b3272f1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c28b2aee_5a77_4ad7_bd3b_0fbf8ccb2446"/>
@@ -1069,12 +1025,24 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48220018_10f8_4fe5_9b5b_6bef3eebf527"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_4a1fbac7_7d21_4120_8c45_ce5da43bc2e8"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a1dad1f8_a5db_4c4e_92fa_3cbc2ec3699f"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_4fb3e8bd_ef67_4a66_90ce_6d1dbb9edecc"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_847b9296_914d_442a_8f2e_a89b719beafe"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_50ebe836_2773_409e_bb2d_352ea682b335"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_de4ddaa2_3b07_4f6b_95a0_d1ceef615ea5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_d5dd93fd_7e0e_4f47_86b0_e6466c5052d5"/>
@@ -1101,12 +1069,28 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_62d1eed9_60a1_4f2b_a743_63e1f09b17e8"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_bf0f4040_8b92_43dc_82c0_73b3dc33288d"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6394ee03_218c_48e1_8493_1f44f9825280"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_d2917d48_2f44_479f_a8ea_b67ed036de75"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_656feb7a_957e_41b9_a1df_7c0bdf099eb0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6b11b90e_87ff_4e94_aa1b_f2a810aadfae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_00a151ce_e2fd_4b4d_a5db_67488c67ecaa"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6d3254f6_84c5_4d2d_aebb_141c5f521af7"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e901629d_951a_4fb1_87f4_559c2c67397c"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6d4c180f_b8e7_4fdf_8949_6d7c8781dbb1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_72ac5d11_cdc7_42cb_9d94_9efca78acce2"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_3d34b349_401d_4fca_b4d2_de80e5148a9c"/>
@@ -1137,6 +1121,10 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_7cb94028_e667_4a20_948d_68ed9b78f49d"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_7e866b10_e2c6_44ea_b76a_bdc942edbb81"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_8ec62a30_380b_46e4_a302_fb5eaecae4a6"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_801fb3eb_0252_4555_8895_559b49031575"/>
     </ClassAssertion>
@@ -1153,12 +1141,20 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_86566650_6765_4c71_b89d_917f4992b5b4"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_f5748327_30c4_4274_94c5_2acf05d2c2c5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_871cfa5d_8210_4da6_a96a_30b398b39a4c"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_af1ba4ed_d84b_431a_9556_7192121ce58f"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_874c6b1e_5b29_4e4a_9636_0263a6f8ad48"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_8ec62a30_380b_46e4_a302_fb5eaecae4a6"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_87f7c659_fa85_4bd0_b508_8eb904c46756"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_8964784c_b635_4d55_9f4c_ee2c3b761516"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_269c9b5f_3e42_4329_a18a_ef72b1d8fa0e"/>
@@ -1181,6 +1177,14 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_958408ec_12fe_4091_bdc1_2c09f763e671"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5b3f14b5_bad6_4d4c_90c0_057cc628fa33"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96dcf963_6d71_480a_916c_e7780cf88bc6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_de4ddaa2_3b07_4f6b_95a0_d1ceef615ea5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_2c6b6c52_0c51_4d92_9437_a7102fc563e9"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_98e73970_0041_44a3_8277_1dd9152eab55"/>
     </ClassAssertion>
@@ -1201,6 +1205,10 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_9e899899_e536_4289_ae19_2bdd5ac85e5f"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_db3badf2_11cf_4809_9427_16b5e09a5eb8"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a0ec8144_7929_4ca9_af6d_ff621dfee138"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_48c2b08c_3efe_452d_a79a_22e2fd70c5f7"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a5e3e011_e8d4_4b70_9d6b_73d2836e4d75"/>
     </ClassAssertion>
@@ -1213,8 +1221,32 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a92667fa_ca60_4d36_a703_bb59cf9e3172"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_a02c9481_9a17_4cfb_8c59_1629a03918ff"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_ad0fd5f8_2284_430d_afd0_238360c2513f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_bdcc61bf_8f5e_4243_8c60_4c6b9b2f61a8"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b3138753_7aa8_406f_ae7a_0317adab0422"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b46157fa_76fc_48ac_bc06_476df738cfc2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_90feec8f_a0d4_4486_bd1c_ef2003f508df"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_baf71ce6_de34_4092_b26d_868fbb70fe29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bb0776c0_81e3_4a66_8ef1_4867bc0db0de"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_af1ba4ed_d84b_431a_9556_7192121ce58f"/>
@@ -1225,8 +1257,20 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bc417125_a685_499d_bb1c_da5de1fd670e"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_de4ddaa2_3b07_4f6b_95a0_d1ceef615ea5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_847b9296_914d_442a_8f2e_a89b719beafe"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_cbcbd8d9_4d73_4455_bdf8_2159036278c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d7cc1317_915b_4821_85b7_28e78cd06545"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_e901629d_951a_4fb1_87f4_559c2c67397c"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d8ac9322_30bd_46a9_a257_d92e7581434d"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e49627b0_c6a6_4343_a9c1_4896a89ac178"/>
@@ -1239,6 +1283,10 @@
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_14aea897_848a_4e70_b446_1a254993b19d"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_e5e48ba7_c763_43e6_af9c_9f3a3975d9b4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_e6c2edec_c8d9_4a10_a1ef_fbb96737314a"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_fb927ea9_9fa2_4749_b244_3811ad63bc2a"/>
@@ -1261,8 +1309,24 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_effb60d0_bcf6_44d2_839b_27c00d2ab955"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_de4ddaa2_3b07_4f6b_95a0_d1ceef615ea5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_58d67db4_fb05_4e5a_89fa_8e8ef0d9e9bb"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f302a9cc_2aa2_45e0_b088_a3d44ad27645"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_c72b7ecd_88e7_4a11_a27e_f90ae324add4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f31afa4c_6b50_4d48_9a85_d23373a3dcae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_14aea897_848a_4e70_b446_1a254993b19d"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f471e8c5_3282_499e_8420_0de408235986"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_fe1543e4_2dc2_484b_891d_1931c20e1d59"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_d2917d48_2f44_479f_a8ea_b67ed036de75"/>
@@ -1272,6 +1336,191 @@
         <Class IRI="http://purl.obolibrary.org/obo/DOID_e0141887_b652_4bbc_b1e7_7958953086a3"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_ff1ab9a3_0ef0_4dba_808e_34cf06840dd8"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_03521a89_7d01_4ead_9e13_1d588f5fe5a4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_12acdd9c_0d7d_4c5c_bbff_33d7b2d4d467"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_16d7adbc_1868_416d_9591_f11a8f148fd1"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_656feb7a_957e_41b9_a1df_7c0bdf099eb0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_03521a89_7d01_4ead_9e13_1d588f5fe5a4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_5a68b602_710b_43a3_91fd_cfc65cd281b4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b46157fa_76fc_48ac_bc06_476df738cfc2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6153b4c9_f17f_44e6_a7d1_4e4a6c273b56"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_874c6b1e_5b29_4e4a_9636_0263a6f8ad48"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_2af7a573_7fa5_4948_abe1_285f39069606"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_874c6b1e_5b29_4e4a_9636_0263a6f8ad48"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_5a68b602_710b_43a3_91fd_cfc65cd281b4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6b11b90e_87ff_4e94_aa1b_f2a810aadfae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bc3c1f31_6d69_4cd0_b0a8_860db4bd93cc"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_32385f71_d305_4279_9043_9c1d36b4ff78"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_79f5962e_b266_4600_8a7f_086a24050b42"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96dcf963_6d71_480a_916c_e7780cf88bc6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f302a9cc_2aa2_45e0_b088_a3d44ad27645"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_2871cd59_3d05_40fb_82da_aa28e5d7bc86"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_3e550c5c_53f5_4aba_bd3a_d8cb0b3272f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_2871cd59_3d05_40fb_82da_aa28e5d7bc86"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d8ac9322_30bd_46a9_a257_d92e7581434d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_bc3c1f31_6d69_4cd0_b0a8_860db4bd93cc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_32385f71_d305_4279_9043_9c1d36b4ff78"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d7cc1317_915b_4821_85b7_28e78cd06545"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_5a68b602_710b_43a3_91fd_cfc65cd281b4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_7e866b10_e2c6_44ea_b76a_bdc942edbb81"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_32385f71_d305_4279_9043_9c1d36b4ff78"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_e992a7b9_c8da_45cc_a026_2355e35d5074"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_d7cc1317_915b_4821_85b7_28e78cd06545"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_8f8c0c05_a2e5_4f39_a683_3fefb6da8aef"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_b3138753_7aa8_406f_ae7a_0317adab0422"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_2871cd59_3d05_40fb_82da_aa28e5d7bc86"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_13a39713_e727_4e2e_a451_d2977e2b8be0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_12acdd9c_0d7d_4c5c_bbff_33d7b2d4d467"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_5a68b602_710b_43a3_91fd_cfc65cd281b4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6b11b90e_87ff_4e94_aa1b_f2a810aadfae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
+    </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -1301,12 +1550,20 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_7bfc7b48_4369_42b1_adc8_73cdbb96c37a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_6eee6cd8_6e75_422f_a184_3762c0801278"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_0eb8ef4c_80ee_4758_8898_3db537ea97b3"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_7bfc7b48_4369_42b1_adc8_73cdbb96c37a"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
@@ -1366,6 +1623,11 @@
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_006b911a_e322_4066_8cbe_7e0c513ef021</IRI>
+        <Literal xml:lang="en">Hervido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_00a151ce_e2fd_4b4d_a5db_67488c67ecaa</IRI>
         <Literal xml:lang="en">Legumbres secas</Literal>
     </AnnotationAssertion>
@@ -1396,11 +1658,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_093992db_8f58_45b4_a890_3ef063175868</IRI>
-        <Literal xml:lang="en">En aceite</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_0c2a3007_70da_4317_834c_f9895d8b000e</IRI>
         <Literal xml:lang="en">Chimichurri</Literal>
     </AnnotationAssertion>
@@ -1408,6 +1665,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_0c996d0d_de3b_4673_bbb3_1d297c191c2d</IRI>
         <Literal xml:lang="en">Budin de pan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0d32ff9d_e1f6_4344_bdce_67c6c77c79bd</IRI>
+        <Literal xml:lang="en">Preparacion de Carpaccio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1436,13 +1698,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_13a4e498_fe6e_4c5e_af68_e038f3207f07</IRI>
-        <Literal xml:lang="en">En parrilla eléctrica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_142d6e37_6ad1_4128_8114_a6cd0d2e3435</IRI>
-        <Literal xml:lang="en">A presión</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_13a39713_e727_4e2e_a451_d2977e2b8be0</IRI>
+        <Literal xml:lang="en">Canela</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1453,6 +1710,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_15f96285_774d_48c6_b2cd_3f6c63ce2e92</IRI>
         <Literal xml:lang="en">Arroz con leche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_168874ea_2316_479f_ad63_54834002759c</IRI>
+        <Literal xml:lang="en">Asado en parrilla a gas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_169d1f69_9f9d_4a9b_a8d2_1f3554da0d9a</IRI>
+        <Literal xml:lang="en">Freir en aceite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1481,11 +1748,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_20e76071_827a_4f6f_b367_74eb589f0ffc</IRI>
-        <Literal xml:lang="en">Profunda</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_23ff991f_d32d_4e7a_a22e_940f6fce30f6</IRI>
         <Literal xml:lang="en">Marinado de limon y ajo</Literal>
     </AnnotationAssertion>
@@ -1501,13 +1763,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_26453228_8a4c_4f3d_8127_cd2ef4be1c01</IRI>
-        <Literal xml:lang="en">En wok</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_269c9b5f_3e42_4329_a18a_ef72b1d8fa0e</IRI>
+        <Literal xml:lang="en">Mariscos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_269c9b5f_3e42_4329_a18a_ef72b1d8fa0e</IRI>
-        <Literal xml:lang="en">Mariscos</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_27f4df7e_3163_4f11_92c9_1c79d8a3705d</IRI>
+        <Literal xml:lang="en">Freir en grasa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1531,6 +1793,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2af7a573_7fa5_4948_abe1_285f39069606</IRI>
+        <Literal xml:lang="en">Chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_2c250c8e_6a6a_456c_abbb_5fe32ab484be</IRI>
         <Literal xml:lang="en">Costillar</Literal>
     </AnnotationAssertion>
@@ -1541,11 +1808,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_2e320196_d56a_41e2_a838_c69523ef1433</IRI>
-        <Literal xml:lang="en">A leña</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_2f83d7e7_9aeb_4087_84d2_89eb6ff6e399</IRI>
         <Literal xml:lang="en">Tomate</Literal>
     </AnnotationAssertion>
@@ -1553,6 +1815,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb</IRI>
         <Literal xml:lang="en">se_consume_en_evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_32385f71_d305_4279_9043_9c1d36b4ff78</IRI>
+        <Literal xml:lang="en">Región Cuyo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1586,6 +1853,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_38ed6d1a_888f_4a23_859f_11f2f3772868</IRI>
+        <Literal xml:lang="en">Salteado en wok</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_3c3860c1_4b08_49b6_a32d_1a585026dacd</IRI>
         <Literal xml:lang="en">Boga</Literal>
     </AnnotationAssertion>
@@ -1596,13 +1868,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_3ed06005_2b43_4142_95fb_f5379dfc8e80</IRI>
-        <Literal xml:lang="en">Pechuga de pollo</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_3e550c5c_53f5_4aba_bd3a_d8cb0b3272f1</IRI>
+        <Literal xml:lang="en">Pimenton</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_4075cb48_435b_4344_91c0_61d45e4b6ec4</IRI>
-        <Literal xml:lang="en">Región Pampeana</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_3ed06005_2b43_4142_95fb_f5379dfc8e80</IRI>
+        <Literal xml:lang="en">Pechuga de pollo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1613,11 +1885,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_41f48294_80f5_4d7d_bfa2_b42408c3b64a</IRI>
         <Literal xml:lang="en">Langostinos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_42493b3c_010c_4b45_a4b5_b730a98bbf62</IRI>
-        <Literal xml:lang="en">Región Patagónica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1656,6 +1923,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56</IRI>
+        <Literal xml:lang="en">Región Litoral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_48c2b08c_3efe_452d_a79a_22e2fd70c5f7</IRI>
         <Literal xml:lang="en">Leche</Literal>
     </AnnotationAssertion>
@@ -1663,6 +1935,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7</IRI>
         <Literal xml:lang="en">es_consumido_en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4a1fbac7_7d21_4120_8c45_ce5da43bc2e8</IRI>
+        <Literal xml:lang="en">Preparacion de Ensalada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1682,22 +1959,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_53b76307_c463_4cdd_bd4c_fcb0f88acc24</IRI>
-        <Literal xml:lang="en">Lácteos</Literal>
+        <Literal xml:lang="en">Lácteos y Derivados</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_5788794b_c18a_4ef8_b517_fc17f8ab31f2</IRI>
-        <Literal xml:lang="en">Ceviches</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_584e0c7f_1f91_4f62_b49f_4c8b0b05ad17</IRI>
-        <Literal xml:lang="en">En sartén</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf</IRI>
+        <Literal xml:lang="en">Asado con Cuero</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_588972a7_f4f0_4d6b_a198_3a421b2a35d3</IRI>
         <Literal xml:lang="en">Chorizo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_58d67db4_fb05_4e5a_89fa_8e8ef0d9e9bb</IRI>
+        <Literal xml:lang="en">Huevos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1736,13 +2013,28 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_6394ee03_218c_48e1_8493_1f44f9825280</IRI>
+        <Literal xml:lang="en">Fermentado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_6482b547_303d_4272_a782_111015d49010</IRI>
         <Literal xml:lang="en">Infusiones de hierbas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_656feb7a_957e_41b9_a1df_7c0bdf099eb0</IRI>
+        <Literal xml:lang="en">Costillar de vaca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_658e0af7_45be_421b_bae1_3f6df54fa585</IRI>
         <Literal xml:lang="en">Recetas vegetarianas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_6b11b90e_87ff_4e94_aa1b_f2a810aadfae</IRI>
+        <Literal xml:lang="en">Horneado a gas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1758,6 +2050,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_6eee6cd8_6e75_422f_a184_3762c0801278</IRI>
         <Literal xml:lang="en">es_ingrediente_de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_72ac5d11_cdc7_42cb_9d94_9efca78acce2</IRI>
+        <Literal xml:lang="en">Vapor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1791,8 +2088,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7bfc7b48_4369_42b1_adc8_73cdbb96c37a</IRI>
+        <Literal xml:lang="en">region_tiene_evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_7cb94028_e667_4a20_948d_68ed9b78f49d</IRI>
         <Literal xml:lang="en">Sal parrillera</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7e866b10_e2c6_44ea_b76a_bdc942edbb81</IRI>
+        <Literal xml:lang="en">Horneado a leña</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1826,6 +2133,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_871cfa5d_8210_4da6_a96a_30b398b39a4c</IRI>
+        <Literal xml:lang="en">Escabeche al vinagre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_874c6b1e_5b29_4e4a_9636_0263a6f8ad48</IRI>
         <Literal xml:lang="en">Fiesta del Chocolate Alpino</Literal>
     </AnnotationAssertion>
@@ -1836,8 +2148,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_896584f5_3862_40af_81be_21a471de211c</IRI>
-        <Literal xml:lang="en">Al carbón</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_8964784c_b635_4d55_9f4c_ee2c3b761516</IRI>
+        <Literal xml:lang="en">Preparacion de Ceviche</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1876,6 +2188,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_96dcf963_6d71_480a_916c_e7780cf88bc6</IRI>
+        <Literal xml:lang="en">Cebolla</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff</IRI>
+        <Literal xml:lang="en">Fondue de Chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_98e73970_0041_44a3_8277_1dd9152eab55</IRI>
         <Literal xml:lang="en">Mozzarella</Literal>
     </AnnotationAssertion>
@@ -1883,11 +2205,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_99528cd2_6e8f_467d_89e7_12e71a3bf328</IRI>
         <Literal xml:lang="en">Lentejas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_9a889671_0982_44b8_82e9_041674f3badc</IRI>
-        <Literal xml:lang="en">En parrilla a gas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1916,6 +2233,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_a0ec8144_7929_4ca9_af6d_ff621dfee138</IRI>
+        <Literal xml:lang="en">Salteado en sarten</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_a1dad1f8_a5db_4c4e_92fa_3cbc2ec3699f</IRI>
         <Literal xml:lang="en">Mates</Literal>
     </AnnotationAssertion>
@@ -1923,11 +2245,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_a5e3e011_e8d4_4b70_9d6b_73d2836e4d75</IRI>
         <Literal xml:lang="en">Leche Descremada</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_a6e5316f_88d0_431d_9ca6_a9fc6eb8aabd</IRI>
-        <Literal xml:lang="en">Región Cuyo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1946,13 +2263,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904</IRI>
-        <Literal xml:lang="en">Fritura</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683</IRI>
+        <Literal xml:lang="en">Región Pampeana</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_aceca9e8_760d_4563_b12f_d59b523be35d</IRI>
-        <Literal xml:lang="en">Región Litoral</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_ac5a09b0_1aac_4395_8a08_b0e2ed28d904</IRI>
+        <Literal xml:lang="en">Fritura</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1961,18 +2278,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_ad54aef0_e2eb_4257_b8d1_109f0b78ad6b</IRI>
-        <Literal xml:lang="en">Vapor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6</IRI>
         <Literal xml:lang="en">es_producido_en</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_ada2569c_ee42_4741_a1c9_1fa48e5dba5b</IRI>
-        <Literal xml:lang="en">A la leña</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1986,23 +2293,28 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_b10ae349_a7e9_4beb_ab3a_a3906e6acaf3</IRI>
-        <Literal xml:lang="en">A gas</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_b3138753_7aa8_406f_ae7a_0317adab0422</IRI>
+        <Literal xml:lang="en">Harina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_b27889c8_cab9_4743_ad32_d3274789be05</IRI>
-        <Literal xml:lang="en">Carpaccios</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_b46157fa_76fc_48ac_bc06_476df738cfc2</IRI>
+        <Literal xml:lang="en">Asado a leña</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_b9b89995_8d5b_4b38_a362_a260efc5615c</IRI>
-        <Literal xml:lang="en">En grasa</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_b9c21121_77fa_468c_bfdc_0991b5a0d3fd</IRI>
+        <Literal xml:lang="en">Región Patagónica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_baca38f4_9c72_4ac6_8962_29a2469820ec</IRI>
-        <Literal xml:lang="en">Ensaladas</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_baf71ce6_de34_4092_b26d_868fbb70fe29</IRI>
+        <Literal xml:lang="en">A presion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_bb0776c0_81e3_4a66_8ef1_4867bc0db0de</IRI>
+        <Literal xml:lang="en">Asado en parrilla electrica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2031,11 +2343,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_c05e09b3_5558_4469_8db2_d6b8f3b585f2</IRI>
-        <Literal xml:lang="en">Hervido</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_c0e2816a_8021_44f2_b4e4_6987da0a4f50</IRI>
         <Literal xml:lang="en">Métodos de preparación</Literal>
     </AnnotationAssertion>
@@ -2046,13 +2353,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_c2a1817d_10e3_4d35_b196_1888033af48c</IRI>
-        <Literal xml:lang="en">Cocción en microondas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_c3ef4461_d90b_4ab1_8b93_63fe447decc4</IRI>
-        <Literal xml:lang="en">Región Norte</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce</IRI>
+        <Literal xml:lang="en">Empanadas Mendocinas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2083,6 +2385,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_d5dd93fd_7e0e_4f47_86b0_e6466c5052d5</IRI>
         <Literal xml:lang="en">Embutidos (charcutería)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_d7cc1317_915b_4821_85b7_28e78cd06545</IRI>
+        <Literal xml:lang="en">Región Norte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_d8ac9322_30bd_46a9_a257_d92e7581434d</IRI>
+        <Literal xml:lang="en">Comino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2136,13 +2448,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_e78fdfee_0ccd_4913_8e8f_4993fe41268e</IRI>
-        <Literal xml:lang="en">Salmon</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_e6c2edec_c8d9_4a10_a1ef_fbb96737314a</IRI>
+        <Literal xml:lang="en">Freir con aire caliente</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/DOID_e820f74e_0f80_4cf5_98c2_d1e040e458fc</IRI>
-        <Literal xml:lang="en">Con aire caliente</Literal>
+        <IRI>http://purl.obolibrary.org/obo/DOID_e78fdfee_0ccd_4913_8e8f_4993fe41268e</IRI>
+        <Literal xml:lang="en">Salmon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2176,6 +2488,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f</IRI>
+        <Literal xml:lang="en">Strudel de Manzana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_f302a9cc_2aa2_45e0_b088_a3d44ad27645</IRI>
+        <Literal xml:lang="en">Huevo de gallina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_f31afa4c_6b50_4d48_9a85_d23373a3dcae</IRI>
+        <Literal xml:lang="en">Asado con carbon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f</IRI>
         <Literal xml:lang="en">Horneado</Literal>
     </AnnotationAssertion>
@@ -2203,6 +2530,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_fb927ea9_9fa2_4749_b244_3811ad63bc2a</IRI>
         <Literal xml:lang="en">Pescados de agua salada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_fe1543e4_2dc2_484b_891d_1931c20e1d59</IRI>
+        <Literal xml:lang="en">Microondas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
