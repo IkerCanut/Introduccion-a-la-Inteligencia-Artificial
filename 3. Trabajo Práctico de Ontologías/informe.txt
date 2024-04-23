@@ -1,0 +1,16 @@
+Descripción del dominio elegido:
+
+Comidas argentinas, basadas en alimentos que se producen en distintas regiones de argentina. En la ontología se relacionan las regiones del pais con recetas de platos y eventos que tienen relacion con gastronomía Ej "Fiesta Nacional del Imigrante". El objetivo es clasificar recetas en regiones argentinas con eventos con gastronomicos
+
+Fuente para representar el domnio:
+- Saberes propios
+- Ministerio del interior fiestas nacionales https://www.argentina.gob.ar/pais/fiestas
+- Ministerio del interior productos regionales: https://www.argentina.gob.ar/economia/politicaeconomica/regionalysectorial/economiasregionales/icer
+- Informe productos regionales: https://www.argentina.gob.ar/sites/default/files/ier_iii_t_2023.pdf
+- Recetas sobre poductos regionales Cocineros Argentinos: https://cocinerosargentinos.com/recetas#google_vignette
+- Calorias alimentos: https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/
+  Ejemplo: Carnes Asadas: https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/gen%C3%A9rico/carne-asada
+
+
+
+
