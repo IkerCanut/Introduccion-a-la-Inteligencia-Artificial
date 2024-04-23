@@ -91,12 +91,18 @@ Alimentos regionales de Argentina, podríamos definir las siguientes clases y su
    - Subclase 5.1: Festivales regionales
    - Subclase 5.2: Celebraciones
 
-6. Clase principal: Dieta y Nutrición
+6. Clase principal: Recetas
+   - Subclase 6.1: Recetas libre de gluten
+   - Subclase 6.2: Recetas vegetarianas 
+      - Subclase 6.2.1: Recetas veganas
+   - Subclase 6.3: Recetas 
+
    (e.g Comidas bajas en calorías, Comidas altas en proteínas, Comidas sin gluten)
 
 
 RELACIONES:
-"Se prepara con": Dominio: Alimentos Codominio: Condimentos regionales
+"esta en receta" Dominio: Alimentos Codominio: Recetas
+-- "Se condimenta con": Dominio: Receta Codominio: Condimentos regionales
 "Es de la región de" : Dominio: Alimentos Codominio: Regiones de Argentina
 "Es un tipo de:" Dominio: Subclases de Alimentos Codominio: Clase principal: Alimentos
 -- "Contiene" : Dominio: Alimentos Codominio: Componentes (por ejemplo, nutrientes, ingredientes)
@@ -112,3 +118,8 @@ RELACIONES:
 
 en las que marque con --, tal vez deberíamos agregar una clase ingredientes no lo sé, en el caso de la relación es parte de tal vez deberíamos agregar una clase "platos y recetas"
 o no tener esas relaciones
+
+SEMANTICA:
+platos : son alimentos siguiendo recetas
+recetas : "" dominio: Alimentos Codominio: Formas de Coción
+
