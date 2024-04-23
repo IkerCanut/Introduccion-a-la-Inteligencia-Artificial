@@ -205,6 +205,9 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_006b911a_e322_4066_8cbe_7e0c513ef021"/>
     </Declaration>
     <Declaration>
@@ -1526,6 +1529,26 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">300</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -1626,6 +1649,10 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_c7364fb9_71ba_47e9_904d_13a2f4d82414"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_006b911a_e322_4066_8cbe_7e0c513ef021</IRI>
@@ -1950,6 +1977,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_4fb3e8bd_ef67_4a66_90ce_6d1dbb9edecc</IRI>
         <Literal xml:lang="en">Mate cocido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413</IRI>
+        <Literal xml:lang="en">calorias_por_porcion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
