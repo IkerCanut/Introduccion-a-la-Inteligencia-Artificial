@@ -18,5 +18,13 @@ Otras ontologías considerasdas:
 Conceptos representados:
 
 
+Esquema de las instacias propuestas a modo de ejemplo y sus relaciones:
 
+Consultas con su formulación en leguaje natural y en la sistaxis DL Query:
+Consulta:
+"Viajo a la region pampeana y me gustaría probar la carne argentina en alguna fiesta gastronomica pero tengo restricciones caloricas de más de 300 ka a 1500 ka"
+(calorias_por_porcion some xsd:decimal [>= 300, <= 1500]) and (tiene_ingrediente some Carnes) and (es_producido_en some {'Región Pampeana'})
+
+
+Conclusión:
 
