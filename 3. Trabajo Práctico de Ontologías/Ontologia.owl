@@ -1357,6 +1357,11 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_656feb7a_957e_41b9_a1df_7c0bdf099eb0"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_2871cd59_3d05_40fb_82da_aa28e5d7bc86"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_7cb94028_e667_4a20_948d_68ed9b78f49d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_03521a89_7d01_4ead_9e13_1d588f5fe5a4"/>
