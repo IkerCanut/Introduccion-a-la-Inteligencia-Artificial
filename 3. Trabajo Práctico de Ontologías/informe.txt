@@ -25,6 +25,8 @@ Consulta:
 "Viajo a la region pampeana y me gustaría probar la carne argentina en alguna fiesta gastronomica pero tengo restricciones caloricas de más de 300 ka a 1500 ka"
 (calorias_por_porcion some xsd:decimal [>= 300, <= 1500]) and (tiene_ingrediente some Carnes) and (es_producido_en some {'Región Pampeana'})
 
-
 Conclusión:
+Una de las cosas que queríamos que nuestra ontología infiera es que recetas son vegetarianas, libres de gluten, etc pero nos vimos con la dificultad de definir Recetas_vegetarians con un "EquivalentTo" con la expresión Recetas and not (tiene_ingrediente some Carnes) pero no tuvimos exito. Nnos dimos cuenta que estabamos con un problema de asunción de mundo abierto (Open World Assumption, OWA) que establece que lo que no está expresamente afirmado como verdadero no se considera automáticamente falso. Esto significa que en un contexto donde se aplica la OWA, la falta de información no implica negación o contradicción.
+
+
 
