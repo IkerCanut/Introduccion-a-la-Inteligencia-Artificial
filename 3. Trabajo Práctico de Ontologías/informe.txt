@@ -11,6 +11,12 @@ Fuente para representar el domnio:
 - Calorias alimentos: https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/
   Ejemplo: Carnes Asadas: https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/gen%C3%A9rico/carne-asada
 
+Otras ontologías considerasdas:
+-FoodOntology https://github.com/FoodOntology/foodon
+ La descartamos por lo grande y compleja: es una ontología que es muy detallada y sobrepasaba las necesidades del dominio elegido
+
+Conceptos representados:
+
 
 
 
