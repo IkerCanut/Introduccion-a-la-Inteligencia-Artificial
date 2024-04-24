@@ -1,0 +1,12 @@
+Integrantes:
+Iker Canut
+Juan Manuel Rabasedas
+Tomas Pitinari
+
+Observaciones:
+Para que compile AStarFoodSearchAgent hay que agregar una deficion de comparacion entre Grid, agregando la linea:
+
+def __lt__(self, other):
+        return False
+
+En el archivo game.py dentro de la deficion de la clase Grid, ya que la cola de prioridad intenta comparar las grillas al pushear un elemento.
