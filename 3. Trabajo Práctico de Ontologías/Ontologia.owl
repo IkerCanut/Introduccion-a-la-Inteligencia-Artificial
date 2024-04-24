@@ -358,6 +358,9 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_5978a487_b400_4aca_9e02_8476525ba928"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_598f09e7_452f_43eb_bf38_4de18767eb41"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_5e71d675_dea8_471c_9015_6423fe200acf"/>
     </Declaration>
     <Declaration>
@@ -560,6 +563,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f471e8c5_3282_499e_8420_0de408235986"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_fe1543e4_2dc2_484b_891d_1931c20e1d59"/>
@@ -1056,6 +1062,10 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_5978a487_b400_4aca_9e02_8476525ba928"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_d3229cbe_1b39_4817_a2a6_7ce0734df3b5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_598f09e7_452f_43eb_bf38_4de18767eb41"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_5172f8e0_5cfd_4a50_9dfc_53ec2c888124"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_5e71d675_dea8_471c_9015_6423fe200acf"/>
     </ClassAssertion>
@@ -1328,6 +1338,10 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f471e8c5_3282_499e_8420_0de408235986"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_de4ddaa2_3b07_4f6b_95a0_d1ceef615ea5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_f40898ae_8693_4462_ad5c_bc9528b5a49f"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_fe1543e4_2dc2_484b_891d_1931c20e1d59"/>
     </ClassAssertion>
@@ -1529,25 +1543,60 @@
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48c25392_591f_49a0_88bd_41862b63de56"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_470694d2_95f2_4069_8351_5395dda3d3e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_48220018_10f8_4fe5_9b5b_6bef3eebf527"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_3061ea04_69af_4cb3_8f3b_3e047b0fdffb"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_6153b4c9_f17f_44e6_a7d1_4e4a6c273b56"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_49656116_bb93_4c49_a16d_6ccd0acf6fa7"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_5a68b602_710b_43a3_91fd_cfc65cd281b4"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_598f09e7_452f_43eb_bf38_4de18767eb41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_ad7587eb_e2ee_473e_8e26_70328f8980d6"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_a9cb4ca6_860d_424e_b751_4a1fb348f683"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_55f5e452_b369_41f0_8b95_640aee6268bf"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
-        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
-        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_96fb9510_4155_4dc3_b562_a2853338ffff"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_c598347b_2381_4425_ad3c_de5afc9808ce"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f1f9563e_ecd2_4a87_8b54_e85e07c9a22f"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/DOID_5055f822_ad46_4a92_98a0_f91e6a38e413"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1000</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/DOID_03e912f2_ccce_4700_bb40_8a3de2483cb5"/>
@@ -2017,6 +2066,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_5978a487_b400_4aca_9e02_8476525ba928</IRI>
         <Literal xml:lang="en">Maiz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_598f09e7_452f_43eb_bf38_4de18767eb41</IRI>
+        <Literal xml:lang="en">Cortado con cuchillo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2557,6 +2611,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_f5a5bc07_1b97_4dc3_a411_662b52a9e324</IRI>
         <Literal xml:lang="en">Celebraciones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_f69b5c99_3b3d_4a04_a71d_23ef9945dd27</IRI>
+        <Literal xml:lang="en">Picada de Salame</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
